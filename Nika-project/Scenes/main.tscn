@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://c3jsnp7gretkl"]
+
+[ext_resource type="PackedScene" uid="uid://b5wuq7osxau4u" path="res://Scenes/player.tscn" id="1_ipdh3"]
+
+[node name="main" type="Node"]
+
+[node name="TileMap" type="TileMap" parent="."]
+format = 2
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2.75, 2.75)
+
+[node name="player" parent="." instance=ExtResource("1_ipdh3")]
+
+[node name="UI" type="CanvasLayer" parent="."]
