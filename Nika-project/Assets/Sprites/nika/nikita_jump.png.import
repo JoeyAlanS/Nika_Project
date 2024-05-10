@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bahq2sw8yktp1"
-path="res://.godot/imported/nikita_jump.png-65c44b9ab2e4e3c1a85bb16ea5db3376.ctex"
+path="res://.godot/imported/nikita_jump.png-4041df3c6f70e689dc2fb4769ccafd36.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/nikita_jump.png"
-dest_files=["res://.godot/imported/nikita_jump.png-65c44b9ab2e4e3c1a85bb16ea5db3376.ctex"]
+source_file="res://Assets/Sprites/nika/nikita_jump.png"
+dest_files=["res://.godot/imported/nikita_jump.png-4041df3c6f70e689dc2fb4769ccafd36.ctex"]
 
 [params]
 

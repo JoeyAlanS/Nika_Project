@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://votnbn1xbb70"
+path="res://.godot/imported/SI X5.mp3-8ad17752445596c15c73a8f1844e94df.mp3str"
+
+[deps]
+
+source_file="res://sounds/nikasSouds/SI X5.mp3"
+dest_files=["res://.godot/imported/SI X5.mp3-8ad17752445596c15c73a8f1844e94df.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

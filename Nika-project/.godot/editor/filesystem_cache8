@@ -1,0 +1,73 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1715306215
+icon.svg::CompressedTexture2D::3483058282052666370::1714709486::1715302234::1::::<><>::
+Menu.gd::GDScript::-1::1715306195::0::1::::<>Control<>::
+::res://Assets/::1714709486
+::res://Assets/Fonts/::1715302233
+ARCADECLASSIC.TTF::FontFile::8059466085011994519::1714709486::1715302233::1::::<><>::
+::res://Assets/Sprites/::1715305310
+::res://Assets/Sprites/Background/::1715305357
+back-animated1.png::CompressedTexture2D::340084313982753961::1714709486::1715302234::1::::<><>::
+back-animated2.png::CompressedTexture2D::7009328311608692986::1714709486::1715302234::1::::<><>::
+back-animated3.png::CompressedTexture2D::1723729778201303621::1714709486::1715302234::1::::<><>::
+backgroundteste.png::CompressedTexture2D::6894621476102661239::1715305230::1715305357::1::::<><>::
+::res://Assets/Sprites/Blocks/::1715302234
+brick.png::CompressedTexture2D::4451488867150810157::1714709486::1715302234::1::::<><>::
+crate.png::CompressedTexture2D::3691935948461402229::1714709486::1715302234::1::::<><>::
+::res://Assets/Sprites/Door/::1715302234
+door.png::CompressedTexture2D::2828108004952593063::1714709486::1715302234::1::::<><>::
+::res://Assets/Sprites/Door/sprites/::1715302234
+active1.png::CompressedTexture2D::3764222507185126804::1714709486::1715302234::1::::<><>::
+active2.png::CompressedTexture2D::3726411712935006032::1714709486::1715302234::1::::<><>::
+active3.png::CompressedTexture2D::2721327656110384649::1714709486::1715302234::1::::<><>::
+active4.png::CompressedTexture2D::4079394542104135573::1714709486::1715302234::1::::<><>::
+door.png::CompressedTexture2D::8888810993324491251::1714709486::1715302234::1::::<><>::
+::res://Assets/Sprites/nika/::1715302234
+nika_death.png::CompressedTexture2D::3653692343354505539::1714770195::1715302234::1::::<><>::
+nika_run_1.png::CompressedTexture2D::9174538026033386680::1714770234::1715302234::1::::<><>::
+nika_run_2.png::CompressedTexture2D::5500956046798928937::1714770222::1715302234::1::::<><>::
+nika_stop.png::CompressedTexture2D::7867722528453301600::1714770204::1715302234::1::::<><>::
+nikita_jump.png::CompressedTexture2D::2401891997229071444::1714709486::1715302234::1::::<><>::
+::res://Assets/Sprites/notes/::1715302234
+nota_1.png::CompressedTexture2D::6389975231528236228::1714709486::1715302234::1::::<><>::
+nota_2.png::CompressedTexture2D::2097923249829067780::1714709486::1715302234::1::::<><>::
+nota_3.png::CompressedTexture2D::1877386473048290333::1714709486::1715302234::1::::<><>::
+nota_4.png::CompressedTexture2D::2840179755566123372::1714709486::1715302234::1::::<><>::
+nota_5.png::CompressedTexture2D::3197466519179771355::1714709486::1715302234::1::::<><>::
+nota_6.png::CompressedTexture2D::8049195352903679600::1714709486::1715302234::1::::<><>::
+nota_7.png::CompressedTexture2D::5780796048635775659::1714709486::1715302234::1::::<><>::
+::res://Assets/Sprites/robot/::1715305357
+EnemyRobot1.png::CompressedTexture2D::3651716599914876630::1715305310::1715305357::1::::<><>::
+EnemyRobot2.png::CompressedTexture2D::3388108919654183101::1715305310::1715305357::1::::<><>::
+EnemyRobot3.png::CompressedTexture2D::2083220819642019876::1715305310::1715305357::1::::<><>::
+EnemyRobot4.png::CompressedTexture2D::580728813121864109::1715305310::1715305357::1::::<><>::
+EnemyRobot5.png::CompressedTexture2D::9170917713261172889::1715305310::1715305357::1::::<><>::
+EnemyRobot6.png::CompressedTexture2D::6527657849825273694::1715305310::1715305357::1::::<><>::
+EnemyRobot7.png::CompressedTexture2D::6437858740818191145::1715305310::1715305357::1::::<><>::
+EnemyRobot8.png::CompressedTexture2D::2466463621069375600::1715305310::1715305357::1::::<><>::
+EnemyRobot9.png::CompressedTexture2D::6296520452212058450::1715305310::1715305357::1::::<><>::
+EnemyRobot10.png::CompressedTexture2D::3074581675415787967::1715305310::1715305357::1::::<><>::
+EnemyRobot11.png::CompressedTexture2D::3137360697156271016::1715305310::1715305357::1::::<><>::
+EnemyRobot12.png::CompressedTexture2D::3031515304157711999::1715305310::1715305357::1::::<><>::
+EnemyRobot13.png::CompressedTexture2D::1280981954052194404::1715305310::1715305357::1::::<><>::
+EnemyRobot14.png::CompressedTexture2D::7924172909525108096::1715305310::1715305357::1::::<><>::
+EnemyRobot15.png::CompressedTexture2D::2164552071476682436::1715305310::1715305357::1::::<><>::
+EnemyRobot16.png::CompressedTexture2D::1741462877634196153::1715305310::1715305357::1::::<><>::
+::res://Audio/::1714770809
+::res://Audio/nika/::1714770809
+::res://Scenes/::1715306195
+Game_scene.tscn::PackedScene::6757825347807710107::1715306195::0::1::::<><>::uid://e30eyv4cot8l::::res://Assets/Sprites/Background/back-animated1.png<>uid://b4olmvgphoyan::::res://Assets/Sprites/Blocks/brick.png<>uid://bsunv7nrq3ipx::::res://Assets/Sprites/Blocks/crate.png<>uid://b5wuq7osxau4u::::res://Scenes/player.tscn
+menu.tscn::PackedScene::2317616189551746562::1715306125::0::1::::<><>::res://Menu.gd
+player.gd::GDScript::-1::1714709486::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::4538746919204259182::1714709486::0::1::::<><>::res://Scenes/player.gd
+::res://sounds/::1715302233
+gameplay.mp3::AudioStreamMP3::8856157844875745937::1714770470::1715302233::1::::<><>::
+menu.mp3::AudioStreamMP3::5930372454101341655::1714770470::1715302233::1::::<><>::
+::res://sounds/nikasSouds/::1715302233
+SI X1.mp3::AudioStreamMP3::1729104454138756414::1714770470::1715302233::1::::<><>::
+SI X2.mp3::AudioStreamMP3::5218812673486521129::1714770470::1715302233::1::::<><>::
+SI X3.mp3::AudioStreamMP3::8103397751975844979::1714770470::1715302233::1::::<><>::
+SI X4.mp3::AudioStreamMP3::1467857926221286636::1714770470::1715302233::1::::<><>::
+SI X5.mp3::AudioStreamMP3::1504043916956749269::1714770470::1715302233::1::::<><>::
+SI X6.mp3::AudioStreamMP3::1578789585744435030::1714770470::1715302233::1::::<><>::
+SI X7.mp3::AudioStreamMP3::6783074956914000515::1714770470::1715302233::1::::<><>::

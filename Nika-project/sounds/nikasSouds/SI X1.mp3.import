@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://yvudk8l6kupq"
+path="res://.godot/imported/SI X1.mp3-7838cdab5a18f84cc21ec20e2346e0fb.mp3str"
+
+[deps]
+
+source_file="res://sounds/nikasSouds/SI X1.mp3"
+dest_files=["res://.godot/imported/SI X1.mp3-7838cdab5a18f84cc21ec20e2346e0fb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
