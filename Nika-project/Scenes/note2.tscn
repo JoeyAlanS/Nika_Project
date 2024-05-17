@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://jbt40lo8brcv"]
+
+[ext_resource type="Script" path="res://Scenes/note2.gd" id="1_0ji68"]
+[ext_resource type="Texture2D" uid="uid://c3vnoelsg36f7" path="res://Assets/Sprites/notes/nota_2.png" id="1_6tqq0"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5n1lb"]
+
+[node name="note2" type="Area2D"]
+collision_layer = 4
+script = ExtResource("1_0ji68")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_6tqq0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+texture_filter = 1
+shape = SubResource("CircleShape2D_5n1lb")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

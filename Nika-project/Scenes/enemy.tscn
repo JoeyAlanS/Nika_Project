@@ -1,0 +1,66 @@
+[gd_scene load_steps=12 format=3 uid="uid://q8avie5xhuqd"]
+
+[ext_resource type="Texture2D" uid="uid://bsa6iee4o6rxm" path="res://Assets/Sprites/robot/EnemyRobot1.png" id="1_31a3s"]
+[ext_resource type="Script" path="res://Scenes/enemy.gd" id="1_b710v"]
+[ext_resource type="Texture2D" uid="uid://bojhwnxk30ixh" path="res://Assets/Sprites/robot/EnemyRobot2.png" id="2_jlmaf"]
+[ext_resource type="Texture2D" uid="uid://4xelv8cx5bq7" path="res://Assets/Sprites/robot/EnemyRobot3.png" id="3_yqnmm"]
+[ext_resource type="Texture2D" uid="uid://ijkrvvijgxrp" path="res://Assets/Sprites/robot/EnemyRobot4.png" id="4_f0wra"]
+[ext_resource type="Texture2D" uid="uid://bjgqu47sfex08" path="res://Assets/Sprites/robot/EnemyRobot12.png" id="4_jepkr"]
+[ext_resource type="Texture2D" uid="uid://sirt58txvwvk" path="res://Assets/Sprites/robot/EnemyRobot13.png" id="5_ls5b3"]
+[ext_resource type="Texture2D" uid="uid://bj2l58dvsa7q6" path="res://Assets/Sprites/robot/EnemyRobot10.png" id="10_uh1hy"]
+[ext_resource type="Texture2D" uid="uid://bkx04wngvf5jg" path="res://Assets/Sprites/robot/EnemyRobot11.png" id="11_8g7dq"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tw4mg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_uh1hy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_8g7dq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_jepkr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ls5b3")
+}],
+"loop": true,
+"name": &"robot_death",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_31a3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_jlmaf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_yqnmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_f0wra")
+}],
+"loop": true,
+"name": &"robot_idle",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_73dfm"]
+radius = 14.0
+
+[node name="enemy" type="Area2D"]
+texture_filter = 1
+script = ExtResource("1_b710v")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_tw4mg")
+animation = &"robot_idle"
+autoplay = "robot_idle"
+frame_progress = 0.289687
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+texture_filter = 1
+shape = SubResource("CircleShape2D_73dfm")
