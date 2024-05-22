@@ -1,3 +1,6 @@
+CollisionShape2D
+AnimatedSprite2D
+Area2D
 Marker2D
 Sprite2D
 Node2D
@@ -8,8 +11,4 @@ HBoxContainer
 Label
 MarginContainer
 TextureRect
-CollisionShape2D
-Area2D
-AnimatedSprite2D
 AnimationPlayer
-Camera2D

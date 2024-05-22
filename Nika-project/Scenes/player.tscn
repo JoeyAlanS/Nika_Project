@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://b5wuq7osxau4u"]
+[gd_scene load_steps=10 format=3 uid="uid://b5wuq7osxau4u"]
 
 [ext_resource type="Script" path="res://Scenes/player.gd" id="1_pvvet"]
 [ext_resource type="Texture2D" uid="uid://bdcbdpqog6hmc" path="res://Assets/Sprites/nika/nika_stop_with_flaute.png" id="2_5h0wn"]
@@ -7,7 +7,6 @@
 [ext_resource type="Texture2D" uid="uid://d3yhkh2qcngke" path="res://Assets/Sprites/nika/nika_run_1.png" id="3_t43vl"]
 [ext_resource type="Texture2D" uid="uid://ckmx7bn0csxnd" path="res://Assets/Sprites/nika/nika_run_2.png" id="4_dtyyr"]
 [ext_resource type="Texture2D" uid="uid://bahq2sw8yktp1" path="res://Assets/Sprites/nika/nikita_jump.png" id="4_e3pgw"]
-[ext_resource type="Texture2D" uid="uid://dyxkor5tw5neq" path="res://Assets/Sprites/nika/flauta.png" id="8_8okxa"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ffqye"]
 animations = [{
@@ -79,14 +78,3 @@ limit_left = 0
 limit_top = -5000000
 limit_bottom = 8000000
 editor_draw_limits = true
-
-[node name="flauta" type="Node2D" parent="."]
-visible = false
-
-[node name="Sprite2D" type="Sprite2D" parent="flauta"]
-texture_filter = 1
-position = Vector2(6, 2)
-texture = ExtResource("8_8okxa")
-
-[node name="Marker2D" type="Marker2D" parent="flauta/Sprite2D"]
-position = Vector2(2, 2)

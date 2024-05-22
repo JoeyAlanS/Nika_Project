@@ -1,0 +1,36 @@
+[gd_scene load_steps=6 format=3 uid="uid://c2oxrcyjn430e"]
+
+[ext_resource type="Texture2D" uid="uid://dlfwjhbuo65np" path="res://Assets/Sprites/notes/attack/Som_attack.png" id="1_3bj7g"]
+[ext_resource type="Texture2D" uid="uid://gujltsr0ltj6" path="res://Assets/Sprites/notes/attack/Som_attack_2.png" id="2_nc5jc"]
+[ext_resource type="Texture2D" uid="uid://bfbly54pucx3h" path="res://Assets/Sprites/notes/attack/Som_attack_3.png" id="3_o2h7k"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_x1qa3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_3bj7g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_nc5jc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_o2h7k")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4m83q"]
+size = Vector2(35, 20)
+
+[node name="attack_nika" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_x1qa3")
+frame_progress = 0.381538
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 0)
+shape = SubResource("RectangleShape2D_4m83q")
