@@ -1,7 +1,10 @@
+Timer
+Marker2D
+VisibleOnScreenEnabler2D
+AudioStreamPlayer
 CollisionShape2D
 AnimatedSprite2D
 Area2D
-Marker2D
 Sprite2D
 Node2D
 Button
@@ -10,5 +13,3 @@ VBoxContainer
 HBoxContainer
 Label
 MarginContainer
-TextureRect
-AnimationPlayer

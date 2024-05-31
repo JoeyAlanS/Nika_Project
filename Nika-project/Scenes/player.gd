@@ -1,12 +1,13 @@
 extends CharacterBody2D
 
 # Constantes de movimento
+const bullet_scene := preload("res://Scenes/attack_nika.tscn")
 const SPEED = 100.0
 const JUMP_VELOCITY = -400.0
-@onready var hand : Node2D = $flauta
-@onready var pistol : Sprite2D = $flauta/Sprite2D
-@onready var pistol_bullet_marker : Marker2D = $flauta/Sprite2D/Marker2D
-#@onready var bullet_load : PackedScene = preload("res://Scenes/Props/bullet.tscn")
+var is_shooting := false
+@onready var bullet_position = $bullet_position
+@onready var shoot_colwndown = $shoot_colwndown
+
 
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
@@ -17,7 +18,12 @@ func _physics_process(delta):
 	if not is_on_floor():
 		velocity.y += gravity * delta
 		
-
+	if Input.is_action_just_pressed("attack"):
+		is_shooting = true
+		if shoot_colwndown.is_stopped():
+			shoot_bullet()
+		else:
+			is_shooting = false
 	# Handle jump.
 	if Input.is_action_just_pressed("ui_up") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
@@ -37,23 +43,12 @@ func _physics_process(delta):
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		animation.play("nika_idle")
 
+func shoot_bullet():
+	var bullet_instance = bullet_scene.instantiate()
+	
+	add_child(bullet_instance)
+	bullet_instance.global_position = bullet_position.global_position
+	shoot_colwndown.start()
 	# Movimentação e colisão
 	move_and_slide()
-	
-#func shoot():
-	#EventManager.bullets_amount -= 1
-	#EventManager.update_bullet_ui.emit()
-	#var mouse_position : Vector2 = (get_global_mouse_position() - global_position).normalized()
-	#pistol_bullet_marker.add_child(muzzle)
-	#bullet.global_position = pistol_bullet_marker.global_position
-	#bullet.target_vector = mouse_position
-	#bullet.rotation = mouse_position.angle()
-	#get_tree().current_scene.add_child(bullet)
-	#AudioManager.play_sound(AudioManager.SHOOT)
 
-#func _on_Item_body_entered(item: Item):
-  #  if not item.is_in_scene_tree():
-  #      return
-
-   # pegar_item(item)  # Presume que pegar_item está definida no script Arma.gd
-   # item.queue_free()  # Remover o item da cena após pegá-lo
